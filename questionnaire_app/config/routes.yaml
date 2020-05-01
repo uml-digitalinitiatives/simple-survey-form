@@ -1,0 +1,7 @@
+index:
+    path: /
+    controller: App\Controller\QuestionnaireController::new
+
+submit_success:
+    path: /success
+    controller: App\Controller\QuestionnaireController::success
