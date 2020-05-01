@@ -1,0 +1,10 @@
+label {
+    padding: 4px;
+}
+label.question {
+    font-weight: bold;
+}
+.required:after {
+    content: " *";
+    color: #c00;
+}
